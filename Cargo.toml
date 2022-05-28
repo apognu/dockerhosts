@@ -1,0 +1,9 @@
+[package]
+name = "dockerhosts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bollard = "0.12"
+futures = "0.3.21"
+tokio = { version = "^1.18", features = ["macros", "fs"] }
